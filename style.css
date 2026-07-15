@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0b111e;
+    font-family: Arial, sans-serif;
+    color: #e2e8f0;
+}
+
+.converter-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 35px;
+    background: #1e293b;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    border: 1px solid #334155;
+}
+
+.binary-label {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+#binaryInput {
+    padding: 12px;
+    font-size: 16px;
+    width: 200px;
+    background-color: #0f172a;
+    border: 2px solid #475569;
+    border-radius: 6px;
+    color: #ffffff;
+    text-align: center;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+#binaryInput:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.3);
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0284c7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0369a1;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    color: #38bdf8;
+    margin: 5px 0 0 0;
+    min-height: 24px;
+}
